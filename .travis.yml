@@ -22,9 +22,6 @@ matrix:
     - python: "2.7"
       env: DJANGO_VERSION=1.11
 
-    - python: "2.7"
-      env: DJANGO_VERSION=1.10
-
 env:
   global:
     - PIPENV_VERBOSITY=-1
